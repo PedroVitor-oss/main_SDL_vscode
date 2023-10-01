@@ -2,7 +2,6 @@
 #define ENGINE_H
 
 #include <SDL2/SDL.h>
-#include <windows.h>
 #include <iostream>
 #include <fstream>
 #include <cmath>

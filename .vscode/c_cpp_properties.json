@@ -3,9 +3,19 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/src/include"
+                "${workspaceFolder}/src/include",
+                "${workspaceFolder}/src/include/Game",
+                "${workspaceFolder}/src/include/SDL2"
             ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src/include",
+                    "${workspaceFolder}/src/include/Game",
+                    "${workspaceFolder}/src/include/SDL2"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
             "defines": [
                 "_DEBUG",
                 "UNICODE",
